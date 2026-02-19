@@ -42,16 +42,22 @@ jobs:
         with:
           script: |
             const title = '🚨 EPG Generator Failed';
-            const body = `The EPG generator failed — Sepehr may have rotated their app-level OAuth keys.
+            const body = `The EPG generator failed. Both data sources must have returned no data.
 
-            **To fix:**
-            1. Go to [sepehrtv.ir](https://sepehrtv.ir)
-            2. Open DevTools → Sources → search JS for \`consumer\` or \`getAuthHeaderForRequest\`
-            3. Extract the updated consumer key/secret and token key/secret
-            4. Update the four GitHub Secrets: \`SEPEHR_CONSUMER_KEY\`, \`SEPEHR_CONSUMER_SECRET\`, \`SEPEHR_ACCESS_TOKEN\`, \`SEPEHR_TOKEN_SECRET\`
-            5. Re-run this workflow
+            **Possible causes:**
 
-            Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}`;
+            **Sepehr TV API**
+            - OAuth keys may have been rotated
+            - Fix: Go to [sepehrtv.ir](https://sepehrtv.ir) → DevTools → Sources → search JS for \`consumer\` or \`getAuthHeaderForRequest\`
+            - Extract the updated consumer key/secret and token key/secret
+            - Update the four GitHub Secrets: \`SEPEHR_CONSUMER_KEY\`, \`SEPEHR_CONSUMER_SECRET\`, \`SEPEHR_ACCESS_TOKEN\`, \`SEPEHR_TOKEN_SECRET\`
+
+            **Radio Quran (radioquran.ir)**
+            - The site may be down or its HTML structure may have changed
+            - Check if [radioquran.ir/ChannelConductor/](https://radioquran.ir/ChannelConductor/) loads in a browser
+            - If the page structure changed, \`parse_radio_quran_html()\` in \`generate_epg.py\` may need updating
+
+            Re-run this workflow after fixing: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}`;
 
             // Check if issue already exists
             const issues = await github.rest.issues.listForRepo({
