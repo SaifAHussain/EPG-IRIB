@@ -256,23 +256,17 @@ def parse_radio_quran_html(html: str) -> list[dict]:
     return programmes
 
 
-def fetch_radio_quran_json(max_retries: int = 3) -> list[dict] | None:
+def parse_radio_quran_json(data: dict) -> list[dict]:
     """
-    Fallback: fetch today's schedule from the radioquran.ir JSON feed.
-    Returns a list of programme dicts (same schema as parse_radio_quran_html),
-    or None on failure.
+    Parse the radioquran.ir JSON feed into programme dicts
+    (same schema as parse_radio_quran_html).
 
     Note: JSON feed lacks descriptions and durations (always empty).
-    """
-    raw = _cffi_fetch(RADIO_QURAN["json_url"], max_retries=max_retries, timeout=30)
-    if raw is None:
-        return None
-    try:
-        data = json.loads(raw)
-    except json.JSONDecodeError as e:
-        print(f"   ⚠️  JSON decode error: {e}")
-        return None
 
+    Expected JSON structure::
+
+        {"Containers": [{"boxes": [{"time": "0:05", "title": "...", ...}, ...]}]}
+    """
     containers = data.get("Containers", [])
     if not containers:
         return []
@@ -306,6 +300,23 @@ def fetch_radio_quran_json(max_retries: int = 3) -> list[dict] | None:
             }
         )
     return programmes
+
+
+def fetch_radio_quran_json(max_retries: int = 3) -> list[dict] | None:
+    """
+    Fallback: fetch today's schedule from the radioquran.ir JSON feed.
+    Returns a list of programme dicts (same schema as parse_radio_quran_html),
+    or None on failure.
+    """
+    raw = _cffi_fetch(RADIO_QURAN["json_url"], max_retries=max_retries, timeout=30)
+    if raw is None:
+        return None
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError as e:
+        print(f"   ⚠️  JSON decode error: {e}")
+        return None
+    return parse_radio_quran_json(data)
 
 
 def radio_quran_to_xmltv(
