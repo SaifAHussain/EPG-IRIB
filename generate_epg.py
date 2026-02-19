@@ -219,39 +219,20 @@ def parse_radio_quran_html(html: str) -> list[dict]:
 
     Returns list of dicts with keys: time, title, description, duration, image
     """
-    print(
-        f"   HTML size: {len(html)} chars, encoding check: "
-        f"'fontsize-3' found={html.count('fontsize-3')}, "
-        f"'itemprop' found={html.count('itemprop')}, "
-        f"'مدت:' found={html.count('مدت:')}"
-    )
-
     times = re.findall(r'fontsize-3">\s*(\d{1,2}:\d{2})\s*</div>', html)
     titles = re.findall(r'itemprop="name ">(.*?)</h4>', html, re.DOTALL)
     descs = re.findall(r'itemprop="description">(.*?)</p>', html, re.DOTALL)
     durations = re.findall(r"مدت:(\d+)\s*دقیقه", html)
     images = re.findall(r'img class="lazy" alt="[^"]*" src="([^"]+)"', html)
 
-    print(
-        f"   Regex matches: times={len(times)}, titles={len(titles)}, "
-        f"descs={len(descs)}, durations={len(durations)}, images={len(images)}"
-    )
-
     # All lists should be the same length; use the minimum to be safe
     n = min(len(times), len(titles), len(descs), len(durations), len(images))
     if n == 0:
-        # Dump a sample of the HTML for debugging if nothing matched
-        if len(html) > 0:
-            # Find radio-program section
-            idx = html.find("radio-program")
-            if idx >= 0:
-                print(
-                    f"   DEBUG: HTML near 'radio-program': {repr(html[idx : idx + 300])}"
-                )
-            else:
-                print(
-                    f"   DEBUG: 'radio-program' not found. First 500 chars: {repr(html[:500])}"
-                )
+        print(
+            f"   Regex found: times={len(times)}, titles={len(titles)}, "
+            f"descs={len(descs)}, durations={len(durations)}, images={len(images)} "
+            f"(HTML was {len(html)} chars)"
+        )
         return []
 
     programmes = []
