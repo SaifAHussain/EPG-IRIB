@@ -1,10 +1,11 @@
 [project]
 name = "epg-irib"
-version = "0.1.0"
-description = "Generate XMLTV EPG data for IRIB channels from Sepehr TV API"
+version = "0.3.0"
+description = "Generate XMLTV EPG data for IRIB channels (Sepehr TV API + radioquran.ir)"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "curl-cffi>=0.7.0",
     "python-dotenv>=1.0.0",
     "requests-oauthlib>=1.3.0",
 ]

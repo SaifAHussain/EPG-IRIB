@@ -48,7 +48,7 @@ jobs:
             1. Go to [sepehrtv.ir](https://sepehrtv.ir)
             2. Open DevTools → Sources → search JS for \`consumer\` or \`getAuthHeaderForRequest\`
             3. Extract the updated consumer key/secret and token key/secret
-            4. Update the credentials in \`generate_epg.py\`
+            4. Update the four GitHub Secrets: \`SEPEHR_CONSUMER_KEY\`, \`SEPEHR_CONSUMER_SECRET\`, \`SEPEHR_ACCESS_TOKEN\`, \`SEPEHR_TOKEN_SECRET\`
             5. Re-run this workflow
 
             Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}`;
