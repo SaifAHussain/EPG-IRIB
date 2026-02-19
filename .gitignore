@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# uv
+.python-version
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Generated (keep epg.xml for GitHub Pages)
+# epg.xml
+
+# Conversation logs
+warp-agent-conversation.md
+
+# Environment secrets
+.env
