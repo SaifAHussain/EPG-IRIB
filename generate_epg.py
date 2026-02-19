@@ -12,6 +12,7 @@ import json
 import os
 import re
 import sys
+import traceback
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 from xml.dom import minidom
@@ -54,6 +55,15 @@ TOKEN_SECRET = os.environ.get("SEPEHR_TOKEN_SECRET", "")
 SEPEHR_API_BASE = "https://sepehrapi.sepehrtv.ir/v3/epg/tvprogram"
 
 OUTPUT_FILE = "epg.xml"
+
+# Minimum number of programmes required to consider the EPG valid.
+# Prevents committing a near-empty file from a partial page load.
+MIN_PROGRAMMES = 10
+
+# Maximum allowed drop ratio vs. existing file. If the new EPG has fewer
+# than (1 - MAX_DROP_RATIO) * old_count programmes, refuse to overwrite.
+# e.g. 0.5 means we reject if new count is less than half the old count.
+MAX_DROP_RATIO = 0.5
 
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -402,6 +412,25 @@ def prettify_xml(element: ET.Element) -> str:
     return header + "\n" + "\n".join(lines) + "\n"
 
 
+def validate_xml(xml_str: str) -> bool:
+    """Verify the XML string is well-formed and contains programmes."""
+    try:
+        root = ET.fromstring(xml_str)
+        count = len(root.findall("programme"))
+        return count > 0
+    except ET.ParseError:
+        return False
+
+
+def count_existing_programmes() -> int:
+    """Count <programme> elements in the existing EPG file, or 0 if missing."""
+    try:
+        tree = ET.parse(OUTPUT_FILE)
+        return len(tree.getroot().findall("programme"))
+    except (FileNotFoundError, ET.ParseError):
+        return 0
+
+
 # ─── Main ────────────────────────────────────────────────────────────────────
 
 
@@ -424,101 +453,148 @@ def main() -> None:
     radio_ok = False
 
     # ── 1. Sepehr TV channels (today only — API has no future data) ──────
-    session = create_sepehr_session()
-    if session:
-        print("🔑 Sepehr OAuth credentials found — checking token...")
-        if check_sepehr_token(session):
-            print("   ✅ Sepehr token is valid.\n")
-            sepehr_ok = True
+    try:
+        session = create_sepehr_session()
+        if session:
+            print("🔑 Sepehr OAuth credentials found — checking token...")
+            if check_sepehr_token(session):
+                print("   ✅ Sepehr token is valid.\n")
+                sepehr_ok = True
 
-            # Register Sepehr channel definitions
-            for channel_id, (tvg_id, display_name, logo) in SEPEHR_CHANNELS.items():
-                ch_el = ET.SubElement(tv, "channel", id=tvg_id)
-                ET.SubElement(ch_el, "display-name").text = display_name
-                ET.SubElement(ch_el, "icon", src=logo)
+                # Register Sepehr channel definitions
+                for channel_id, (tvg_id, display_name, logo) in SEPEHR_CHANNELS.items():
+                    ch_el = ET.SubElement(tv, "channel", id=tvg_id)
+                    ET.SubElement(ch_el, "display-name").text = display_name
+                    ET.SubElement(ch_el, "icon", src=logo)
 
-            # Fetch programmes for each channel (today only)
-            for channel_id, (tvg_id, display_name, _logo) in SEPEHR_CHANNELS.items():
-                print(f"📺 {display_name} (Sepehr channel {channel_id}):")
-                date_label = now.strftime("%Y-%m-%d")
-                try:
-                    progs = fetch_sepehr_epg(session, channel_id, now)
-                    added = sepehr_programmes_to_xmltv(tv, progs, tvg_id)
-                    total_programmes += added
-                    print(f"   {date_label}: {added} programmes")
-                except Exception as e:
-                    print(f"   {date_label}: ⚠️  FAILED — {e}")
-                print()
+                # Fetch programmes for each channel (today only)
+                for channel_id, (
+                    tvg_id,
+                    display_name,
+                    _logo,
+                ) in SEPEHR_CHANNELS.items():
+                    print(f"📺 {display_name} (Sepehr channel {channel_id}):")
+                    date_label = now.strftime("%Y-%m-%d")
+                    try:
+                        progs = fetch_sepehr_epg(session, channel_id, now)
+                        added = sepehr_programmes_to_xmltv(tv, progs, tvg_id)
+                        total_programmes += added
+                        print(f"   {date_label}: {added} programmes")
+                    except Exception as e:
+                        print(f"   {date_label}: ⚠️  FAILED — {e}")
+                    print()
+            else:
+                print("   ❌ Sepehr token is INVALID (may need rotation).\n")
         else:
-            print("   ❌ Sepehr token is INVALID (may need rotation).\n")
-    else:
-        print("⏭️  Sepehr OAuth credentials not set — skipping TV channels.\n")
+            print("⏭️  Sepehr OAuth credentials not set — skipping TV channels.\n")
+    except Exception as e:
+        print(f"⚠️  Sepehr crashed unexpectedly: {e}")
+        traceback.print_exc()
+        print("   Continuing with Radio Quran...\n")
 
     # ── 2. Radio Quran (radioquran.ir, today only) ───────────────────────
-    print("📻 Radio Quran (radioquran.ir):")
+    try:
+        print("📻 Radio Quran (radioquran.ir):")
 
-    # Register the Radio Quran channel definition
-    rq_tvg_id = RADIO_QURAN["tvg_id"]
-    ch_el = ET.SubElement(tv, "channel", id=rq_tvg_id)
-    ET.SubElement(ch_el, "display-name").text = RADIO_QURAN["display_name"]
-    ET.SubElement(ch_el, "icon", src=RADIO_QURAN["logo"])
+        # Register the Radio Quran channel definition
+        rq_tvg_id = RADIO_QURAN["tvg_id"]
+        ch_el = ET.SubElement(tv, "channel", id=rq_tvg_id)
+        ET.SubElement(ch_el, "display-name").text = RADIO_QURAN["display_name"]
+        ET.SubElement(ch_el, "icon", src=RADIO_QURAN["logo"])
 
-    date_label = now.strftime("%Y-%m-%d")
-    day_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
+        date_label = now.strftime("%Y-%m-%d")
+        day_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
 
-    # Primary: parse the HTML page (has descriptions + durations)
-    rq_programmes = None
-    print("   Trying HTML page (ChannelConductor)...")
-    html = fetch_radio_quran_html()
-    if html:
-        rq_programmes = parse_radio_quran_html(html)
-        if rq_programmes:
-            has_descs = sum(1 for p in rq_programmes if p.get("description"))
-            has_durs = sum(1 for p in rq_programmes if p.get("duration"))
-            print(
-                f"   ✅ HTML parsed: {len(rq_programmes)} programmes "
-                f"({has_descs} with descriptions, {has_durs} with durations)"
-            )
+        # Primary: parse the HTML page (has descriptions + durations)
+        rq_programmes = None
+        print("   Trying HTML page (ChannelConductor)...")
+        html = fetch_radio_quran_html()
+        if html:
+            rq_programmes = parse_radio_quran_html(html)
+            if rq_programmes:
+                has_descs = sum(1 for p in rq_programmes if p.get("description"))
+                has_durs = sum(1 for p in rq_programmes if p.get("duration"))
+                print(
+                    f"   ✅ HTML parsed: {len(rq_programmes)} programmes "
+                    f"({has_descs} with descriptions, {has_durs} with durations)"
+                )
+            else:
+                print("   ⚠️  HTML fetched but no programmes parsed")
+
+        # Fallback: JSON feed (no descriptions or durations, but lighter)
+        if not rq_programmes:
+            print("   Falling back to JSON feed...")
+            rq_programmes = fetch_radio_quran_json()
+            if rq_programmes:
+                print(
+                    f"   ✅ JSON parsed: {len(rq_programmes)} programmes "
+                    f"(no descriptions/durations)"
+                )
+
+        if rq_programmes is None:
+            print(f"   {date_label}: ⚠️  FAILED — both HTML and JSON returned nothing")
+        elif not rq_programmes:
+            print(f"   {date_label}: ⚠️  No programmes found in either source")
         else:
-            print("   ⚠️  HTML fetched but no programmes parsed")
+            added = radio_quran_to_xmltv(tv, rq_programmes, rq_tvg_id, day_start)
+            if added > 0:
+                radio_ok = True
+                total_programmes += added
+                print(f"   {date_label}: {added} programmes added to EPG")
+            else:
+                print(
+                    f"   {date_label}: ⚠️  No programmes converted "
+                    f"(page structure may have changed)"
+                )
+        print()
+    except Exception as e:
+        print(f"⚠️  Radio Quran crashed unexpectedly: {e}")
+        traceback.print_exc()
+        print()
 
-    # Fallback: JSON feed (no descriptions or durations, but lighter)
-    if not rq_programmes:
-        print("   Falling back to JSON feed...")
-        rq_programmes = fetch_radio_quran_json()
-        if rq_programmes:
-            print(
-                f"   ✅ JSON parsed: {len(rq_programmes)} programmes "
-                f"(no descriptions/durations)"
-            )
+    # ── 3. Validate and write output ─────────────────────────────────────
 
-    if rq_programmes is None:
-        print(f"   {date_label}: ⚠️  FAILED — both HTML and JSON returned nothing")
-    elif not rq_programmes:
-        print(f"   {date_label}: ⚠️  No programmes found in either source")
-    else:
-        added = radio_quran_to_xmltv(tv, rq_programmes, rq_tvg_id, day_start)
-        if added > 0:
-            radio_ok = True
-            total_programmes += added
-            print(f"   {date_label}: {added} programmes added to EPG")
-        else:
-            print(
-                f"   {date_label}: ⚠️  No programmes converted "
-                f"(page structure may have changed)"
-            )
-    print()
-
-    # ── 3. Write output ──────────────────────────────────────────────────
+    # Gate: absolute minimum
     if total_programmes == 0:
         print("💀 No programmes from ANY source. EPG is completely empty!")
+        print("   Keeping existing epg.xml unchanged.")
         sys.exit(1)
 
+    if total_programmes < MIN_PROGRAMMES:
+        print(
+            f"⚠️  Only {total_programmes} programmes found "
+            f"(minimum is {MIN_PROGRAMMES}). Something is wrong."
+        )
+        print("   Keeping existing epg.xml unchanged.")
+        sys.exit(1)
+
+    # Gate: don't overwrite with significantly fewer programmes
+    old_count = count_existing_programmes()
+    if old_count > 0:
+        threshold = int(old_count * (1 - MAX_DROP_RATIO))
+        if total_programmes < threshold:
+            print(
+                f"⚠️  New EPG has {total_programmes} programmes but existing "
+                f"has {old_count} — that's a >{int(MAX_DROP_RATIO * 100)}% drop."
+            )
+            print("   Refusing to overwrite. Keeping existing epg.xml.")
+            sys.exit(1)
+
+    # Generate XML and validate it's well-formed
     xml_str = prettify_xml(tv)
+    if not validate_xml(xml_str):
+        print("💀 Generated XML is malformed! Keeping existing epg.xml.")
+        sys.exit(1)
+
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(xml_str)
 
-    print(f"✅ Wrote {total_programmes} total programmes to {OUTPUT_FILE}")
+    if old_count > 0:
+        print(
+            f"✅ Wrote {total_programmes} programmes to {OUTPUT_FILE} (was {old_count})"
+        )
+    else:
+        print(f"✅ Wrote {total_programmes} programmes to {OUTPUT_FILE}")
 
     # ── 4. Report partial failures ───────────────────────────────────────
     if session and not sepehr_ok:
@@ -536,4 +612,11 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except SystemExit:
+        raise
+    except Exception:
+        print("\n💀 UNEXPECTED CRASH — keeping existing epg.xml unchanged.")
+        traceback.print_exc()
+        sys.exit(1)

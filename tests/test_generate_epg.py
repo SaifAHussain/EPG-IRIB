@@ -14,11 +14,14 @@ import pytest
 
 from generate_epg import (
     IRAN_TZ,
+    count_existing_programmes,
     ms_to_xmltv,
     parse_radio_quran_html,
     parse_radio_quran_json,
+    prettify_xml,
     radio_quran_to_xmltv,
     sepehr_programmes_to_xmltv,
+    validate_xml,
 )
 
 # ── Fixture paths ────────────────────────────────────────────────────────────
@@ -639,3 +642,103 @@ class TestHtmlToXmltvIntegration:
         xml_str = ET.tostring(tv, encoding="unicode")
         reparsed = ET.fromstring(xml_str)
         assert len(reparsed.findall("programme")) == count
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  validate_xml
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+class TestValidateXml:
+    def test_valid_xml_with_programmes(self):
+        tv = _make_tv()
+        ET.SubElement(tv, "programme", start="20260219000000 +0330", channel="Test")
+        ET.SubElement(tv.find("programme"), "title").text = "Test Title"
+        xml_str = prettify_xml(tv)
+        assert validate_xml(xml_str) is True
+
+    def test_valid_xml_without_programmes(self):
+        tv = _make_tv()
+        xml_str = prettify_xml(tv)
+        assert validate_xml(xml_str) is False
+
+    def test_malformed_xml(self):
+        assert validate_xml("<tv><programme><broken") is False
+
+    def test_empty_string(self):
+        assert validate_xml("") is False
+
+    def test_not_xml_at_all(self):
+        assert validate_xml("this is just plain text, not XML") is False
+
+    def test_real_output(self):
+        """Validate a realistic multi-programme XML output."""
+        programmes = [
+            {
+                "time": "00:00",
+                "title": "تیك تاك",
+                "description": "اعلام ساعت",
+                "duration": 5,
+                "image": "https://radio.ir/img.jpg",
+            },
+            {
+                "time": "00:05",
+                "title": "تلاوت",
+                "description": "",
+                "duration": 15,
+                "image": "",
+            },
+        ]
+        tv = _make_tv()
+        radio_quran_to_xmltv(tv, programmes, "RadioQuran", _day_start())
+        xml_str = prettify_xml(tv)
+        assert validate_xml(xml_str) is True
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  count_existing_programmes
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+class TestCountExistingProgrammes:
+    def test_counts_valid_file(self, tmp_path, monkeypatch):
+        """Counts programmes in an existing valid EPG file."""
+        epg_file = tmp_path / "epg.xml"
+        tv = _make_tv()
+        for i in range(25):
+            prog = ET.SubElement(
+                tv,
+                "programme",
+                start=f"2026021900{i:02d}00 +0330",
+                channel="Test",
+            )
+            ET.SubElement(prog, "title").text = f"Programme {i}"
+        epg_file.write_text(prettify_xml(tv), encoding="utf-8")
+
+        monkeypatch.setattr("generate_epg.OUTPUT_FILE", str(epg_file))
+        assert count_existing_programmes() == 25
+
+    def test_returns_zero_for_missing_file(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(
+            "generate_epg.OUTPUT_FILE", str(tmp_path / "nonexistent.xml")
+        )
+        assert count_existing_programmes() == 0
+
+    def test_returns_zero_for_malformed_file(self, tmp_path, monkeypatch):
+        epg_file = tmp_path / "epg.xml"
+        epg_file.write_text("<broken xml", encoding="utf-8")
+        monkeypatch.setattr("generate_epg.OUTPUT_FILE", str(epg_file))
+        assert count_existing_programmes() == 0
+
+    def test_returns_zero_for_empty_file(self, tmp_path, monkeypatch):
+        epg_file = tmp_path / "epg.xml"
+        epg_file.write_text("", encoding="utf-8")
+        monkeypatch.setattr("generate_epg.OUTPUT_FILE", str(epg_file))
+        assert count_existing_programmes() == 0
+
+    def test_returns_zero_for_no_programmes(self, tmp_path, monkeypatch):
+        epg_file = tmp_path / "epg.xml"
+        tv = _make_tv()
+        epg_file.write_text(prettify_xml(tv), encoding="utf-8")
+        monkeypatch.setattr("generate_epg.OUTPUT_FILE", str(epg_file))
+        assert count_existing_programmes() == 0

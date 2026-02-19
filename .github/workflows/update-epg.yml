@@ -18,8 +18,12 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v5
 
-      - name: Generate EPG
-        id: generate
+      - name: Run tests
+        run: uv run pytest tests/ -v
+
+      - name: Generate EPG (attempt 1)
+        id: attempt1
+        continue-on-error: true
         env:
           SEPEHR_CONSUMER_KEY: ${{ secrets.SEPEHR_CONSUMER_KEY }}
           SEPEHR_CONSUMER_SECRET: ${{ secrets.SEPEHR_CONSUMER_SECRET }}
@@ -27,8 +31,61 @@ jobs:
           SEPEHR_TOKEN_SECRET: ${{ secrets.SEPEHR_TOKEN_SECRET }}
         run: uv run generate_epg.py
 
+      - name: Wait before retry
+        if: steps.attempt1.outcome == 'failure'
+        run: sleep 30
+
+      - name: Generate EPG (attempt 2)
+        id: attempt2
+        if: steps.attempt1.outcome == 'failure'
+        continue-on-error: true
+        env:
+          SEPEHR_CONSUMER_KEY: ${{ secrets.SEPEHR_CONSUMER_KEY }}
+          SEPEHR_CONSUMER_SECRET: ${{ secrets.SEPEHR_CONSUMER_SECRET }}
+          SEPEHR_ACCESS_TOKEN: ${{ secrets.SEPEHR_ACCESS_TOKEN }}
+          SEPEHR_TOKEN_SECRET: ${{ secrets.SEPEHR_TOKEN_SECRET }}
+        run: uv run generate_epg.py
+
+      - name: Wait before final retry
+        if: steps.attempt1.outcome == 'failure' && steps.attempt2.outcome == 'failure'
+        run: sleep 60
+
+      - name: Generate EPG (attempt 3)
+        id: attempt3
+        if: steps.attempt1.outcome == 'failure' && steps.attempt2.outcome == 'failure'
+        env:
+          SEPEHR_CONSUMER_KEY: ${{ secrets.SEPEHR_CONSUMER_KEY }}
+          SEPEHR_CONSUMER_SECRET: ${{ secrets.SEPEHR_CONSUMER_SECRET }}
+          SEPEHR_ACCESS_TOKEN: ${{ secrets.SEPEHR_ACCESS_TOKEN }}
+          SEPEHR_TOKEN_SECRET: ${{ secrets.SEPEHR_TOKEN_SECRET }}
+        run: uv run generate_epg.py
+
+      - name: Validate EPG XML
+        if: steps.attempt1.outcome == 'success' || steps.attempt2.outcome == 'success' || steps.attempt3.outcome == 'success'
+        run: |
+          echo "Validating epg.xml..."
+
+          # Check file exists and is non-empty
+          if [ ! -s epg.xml ]; then
+            echo "❌ epg.xml is missing or empty"
+            exit 1
+          fi
+
+          # Check it's valid XML
+          python3 -c "
+          import xml.etree.ElementTree as ET
+          tree = ET.parse('epg.xml')
+          root = tree.getroot()
+          progs = root.findall('programme')
+          chans = root.findall('channel')
+          print(f'✅ Valid XML: {len(progs)} programmes, {len(chans)} channels')
+          if len(progs) < 10:
+              print(f'❌ Only {len(progs)} programmes — too few')
+              exit(1)
+          "
+
       - name: Commit and push
-        if: success()
+        if: steps.attempt1.outcome == 'success' || steps.attempt2.outcome == 'success' || steps.attempt3.outcome == 'success'
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
@@ -42,7 +99,7 @@ jobs:
         with:
           script: |
             const title = '🚨 EPG Generator Failed';
-            const body = `The EPG generator failed. Both data sources must have returned no data.
+            const body = `The EPG generator failed after 3 attempts. Both data sources must have returned no data.
 
             **Possible causes:**
 
