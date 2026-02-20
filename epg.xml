@@ -484,35 +484,53 @@
   <programme start="20260220210029 +0330" channel="QuranTV.ir@SD" stop="20260220215529 +0330">
     <title lang="fa">شب های تلاوت . زنده</title>
   </programme>
-  <programme start="20260220215529 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260220215618 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">آرم استیشن ویژه رمضان</title>
   </programme>
-  <programme start="20260220215549 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260220215638 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">تیزر یاد خدا ماه مبارک رمضان</title>
   </programme>
-  <programme start="20260220215631 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260220215720 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">فراز تلاوت</title>
   </programme>
-  <programme start="20260220215724 +0330" channel="QuranTV.ir@SD" stop="20260220215824 +0330">
+  <programme start="20260220215813 +0330" channel="QuranTV.ir@SD" stop="20260220215913 +0330">
     <title lang="fa">وله تبریک فرارسیدن ماه مبارک رمضان</title>
   </programme>
-  <programme start="20260220215855 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260220215944 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">آرم برنامه بهشت</title>
   </programme>
-  <programme start="20260220215920 +0330" channel="QuranTV.ir@SD" stop="20260220231920 +0330">
+  <programme start="20260220220009 +0330" channel="QuranTV.ir@SD" stop="20260220232009 +0330">
     <title lang="fa">مسابقه بهشت</title>
   </programme>
-  <programme start="20260220231955 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260220232044 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">فراز تلاوت</title>
   </programme>
-  <programme start="20260220232048 +0330" channel="QuranTV.ir@SD" stop="20260220232248 +0330">
+  <programme start="20260220232137 +0330" channel="QuranTV.ir@SD" stop="20260220232337 +0330">
+    <title lang="fa">اوقات شرعی اماکن مذهبی</title>
+  </programme>
+  <programme start="20260220232337 +0330" channel="QuranTV.ir@SD" stop="20260220232537 +0330">
     <title lang="fa">مکتب</title>
   </programme>
-  <programme start="20260220232308 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260220232557 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم مدرسه حفظ</title>
+  </programme>
+  <programme start="20260220232622 +0330" channel="QuranTV.ir@SD" stop="20260220233522 +0330">
+    <title lang="fa">مدرسه حفظ قرآن کریم - سوره مبارکه فتح</title>
+  </programme>
+  <programme start="20260220233531 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">فراز تلاوت</title>
+  </programme>
+  <programme start="20260220233624 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">آرم برنامه مناجات خوانی</title>
   </programme>
-  <programme start="20260220232333 +0330" channel="QuranTV.ir@SD" stop="20260220235933 +0330">
+  <programme start="20260220233649 +0330" channel="QuranTV.ir@SD" stop="20260220235549 +0330">
     <title lang="fa">مناجات خوانی</title>
+  </programme>
+  <programme start="20260220235559 +0330" channel="QuranTV.ir@SD" stop="20260220235759 +0330">
+    <title lang="fa">اوقات شرعی اماکن مذهبی</title>
+  </programme>
+  <programme start="20260220235759 +0330" channel="QuranTV.ir@SD" stop="20260220235959 +0330">
+    <title lang="fa">نگارخانه آثار تجسمی ماه مبارک رمضان</title>
   </programme>
   <channel id="Radio Quran">
     <display-name>Radio Quran</display-name>
