@@ -397,25 +397,22 @@
   <programme start="20260222164828 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">تیزر مسجد به مسجد</title>
   </programme>
-  <programme start="20260222164907 +0330" channel="QuranTV.ir@SD" stop="20260222165607 +0330">
-    <title lang="fa">مناجات خوانی حاج سعید حدادیان</title>
+  <programme start="20260222164907 +0330" channel="QuranTV.ir@SD" stop="20260222165807 +0330">
+    <title lang="fa">مداحی و روضه خوانی حاج سعید حدادیان</title>
   </programme>
-  <programme start="20260222165637 +0330" channel="QuranTV.ir@SD" stop="20260222165737 +0330">
-    <title lang="fa">فراز تلاوت</title>
-  </programme>
-  <programme start="20260222165741 +0330" channel="QuranTV.ir@SD" stop="20260222170441 +0330">
+  <programme start="20260222165814 +0330" channel="QuranTV.ir@SD" stop="20260222170514 +0330">
     <title lang="fa">ارتباط زنده با مشهد مقدس</title>
   </programme>
-  <programme start="20260222170441 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260222170514 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">آرم استیشن</title>
   </programme>
-  <programme start="20260222170501 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260222170534 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">آرم یاد خدا . زنده</title>
   </programme>
-  <programme start="20260222170526 +0330" channel="QuranTV.ir@SD" stop="20260222180626 +0330">
+  <programme start="20260222170559 +0330" channel="QuranTV.ir@SD" stop="20260222180559 +0330">
     <title lang="fa">یاد خدا . زنده (ویژه برنامه افطار)</title>
   </programme>
-  <programme start="20260222180626 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260222180559 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">آرم استیشن</title>
   </programme>
   <programme start="20260222180630 +0330" channel="QuranTV.ir@SD">
