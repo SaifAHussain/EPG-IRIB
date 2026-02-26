@@ -4,1077 +4,479 @@
     <display-name>IRIB Quran</display-name>
     <icon src="https://lb-cdn.sepehrtv.ir/img/channel/quarnlogo.png"/>
   </channel>
-  <programme start="20260225000113 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">معرفی کلی برنامه های امروز</title>
-  </programme>
-  <programme start="20260225000158 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260226000113 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">اعلام اذان تهران</title>
   </programme>
-  <programme start="20260225000240 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260226000155 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">آرم برنامه محفل</title>
   </programme>
-  <programme start="20260225000305 +0330" channel="QuranTV.ir@SD" stop="20260225012805 +0330">
-    <title lang="fa">محفل</title>
+  <programme start="20260226000220 +0330" channel="QuranTV.ir@SD" stop="20260226013020 +0330">
+    <title lang="fa">ویژه برنامه تلویزیونی محفل قسمت هفتم</title>
   </programme>
-  <programme start="20260225012849 +0330" channel="QuranTV.ir@SD" stop="20260225013049 +0330">
+  <programme start="20260226013116 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم قبل از تلاوت ویژه رمضان</title>
+  </programme>
+  <programme start="20260226013136 +0330" channel="QuranTV.ir@SD" stop="20260226020236 +0330">
+    <title lang="fa">تحدیر خوانی جزء هشتم قرآن کریم</title>
+  </programme>
+  <programme start="20260226020319 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">صلوات</title>
+  </programme>
+  <programme start="20260226020329 +0330" channel="QuranTV.ir@SD" stop="20260226020529 +0330">
     <title lang="fa">اوقات شرعی اماکن مذهبی</title>
   </programme>
-  <programme start="20260225013049 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه ستاره های زمین</title>
-  </programme>
-  <programme start="20260225013114 +0330" channel="QuranTV.ir@SD" stop="20260225015914 +0330">
-    <title lang="fa">ستاره های زمین</title>
-  </programme>
-  <programme start="20260225015951 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">اعلام برنامه بعدی</title>
-  </programme>
-  <programme start="20260225020041 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">اعلام اذان تهران</title>
-  </programme>
-  <programme start="20260225020123 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه تفسیر و قرائت دعای افتتاح(زنده)</title>
-  </programme>
-  <programme start="20260225020148 +0330" channel="QuranTV.ir@SD" stop="20260225022948 +0330">
-    <title lang="fa">شرح و تفسیر دعای افتتاح . زنده</title>
-  </programme>
-  <programme start="20260225022948 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم استیشن</title>
-  </programme>
-  <programme start="20260225023008 +0330" channel="QuranTV.ir@SD" stop="20260225023208 +0330">
-    <title lang="fa">اوقات شرعی اماکن مذهبی</title>
-  </programme>
-  <programme start="20260225023208 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم قبل از تلاوت</title>
-  </programme>
-  <programme start="20260225023228 +0330" channel="QuranTV.ir@SD" stop="20260225030428 +0330">
-    <title lang="fa">تحدیر خوانی جزء هفتم قرآن کریم</title>
-  </programme>
-  <programme start="20260225030506 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">صلوات گرافیکی</title>
-  </programme>
-  <programme start="20260225030547 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه مناجات خوانی</title>
-  </programme>
-  <programme start="20260225030612 +0330" channel="QuranTV.ir@SD" stop="20260225032612 +0330">
-    <title lang="fa">مداحی و روضه خوانی حاج سعید حدادیان</title>
-  </programme>
-  <programme start="20260225032637 +0330" channel="QuranTV.ir@SD" stop="20260225032737 +0330">
-    <title lang="fa">اعلام برنامه ها</title>
-  </programme>
-  <programme start="20260225032743 +0330" channel="QuranTV.ir@SD" stop="20260225032843 +0330">
+  <programme start="20260226020529 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">فراز تلاوت</title>
   </programme>
-  <programme start="20260225032852 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">اعلام اذان تهران</title>
-  </programme>
-  <programme start="20260225032934 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم نفحات . زنده</title>
-  </programme>
-  <programme start="20260225032959 +0330" channel="QuranTV.ir@SD" stop="20260225045659 +0330">
-    <title lang="fa">نفحات . زنده(ویژه سحر ماه مبارک رمضان)</title>
-  </programme>
-  <programme start="20260225045729 +0330" channel="QuranTV.ir@SD" stop="20260225045929 +0330">
-    <title lang="fa">کلیپ حرم مطهر امام رضا علیه السلام</title>
-  </programme>
-  <programme start="20260225045947 +0330" channel="QuranTV.ir@SD" stop="20260225050147 +0330">
-    <title lang="fa">اوقات شرعی اماکن مذهبی</title>
-  </programme>
-  <programme start="20260225050147 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم استیشن</title>
-  </programme>
-  <programme start="20260225050151 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم قبل از تلاوت ویژه رمضان</title>
-  </programme>
-  <programme start="20260225050211 +0330" channel="QuranTV.ir@SD" stop="20260225051311 +0330">
-    <title lang="fa">تلاوت اذانگاهی</title>
-  </programme>
-  <programme start="20260225051347 +0330" channel="QuranTV.ir@SD" stop="20260225051447 +0330">
-    <title lang="fa">صلوات</title>
-  </programme>
-  <programme start="20260225051451 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">دعای قبل از اذان - شهید صیاد شیرازی</title>
-  </programme>
-  <programme start="20260225051530 +0330" channel="QuranTV.ir@SD" stop="20260225051930 +0330">
-    <title lang="fa">اذان صبح به افق تهران</title>
-  </programme>
-  <programme start="20260225052016 +0330" channel="QuranTV.ir@SD" stop="20260225052416 +0330">
-    <title lang="fa">مناجات عرفانی</title>
-  </programme>
-  <programme start="20260225052456 +0330" channel="QuranTV.ir@SD" stop="20260225052956 +0330">
-    <title lang="fa">نماز صبح به امامت آیت ا... مکارم شیرازی</title>
-  </programme>
-  <programme start="20260225053029 +0330" channel="QuranTV.ir@SD" stop="20260225053129 +0330">
-    <title lang="fa">دعای سلامتی امام زمان (عج)</title>
-  </programme>
-  <programme start="20260225053159 +0330" channel="QuranTV.ir@SD" stop="20260225053359 +0330">
-    <title lang="fa">دعای ماه رمضان</title>
-  </programme>
-  <programme start="20260225053442 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">دعای روز</title>
-  </programme>
-  <programme start="20260225053536 +0330" channel="QuranTV.ir@SD" stop="20260225053936 +0330">
-    <title lang="fa">شرح دعای روز</title>
-  </programme>
-  <programme start="20260225054001 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">اعلام برنامه بعدی</title>
-  </programme>
-  <programme start="20260225054051 +0330" channel="QuranTV.ir@SD" stop="20260225054151 +0330">
-    <title lang="fa">فراز تلاوت</title>
-  </programme>
-  <programme start="20260225054200 +0330" channel="QuranTV.ir@SD" stop="20260225054300 +0330">
-    <title lang="fa">موشن سوال مسابقه برنامه آیه- پلی بک</title>
-  </programme>
-  <programme start="20260225054317 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم قبل از تلاوت ویژه رمضان</title>
-  </programme>
-  <programme start="20260225054337 +0330" channel="QuranTV.ir@SD" stop="20260225064937 +0330">
-    <title lang="fa">ترتیل خوانی جزء هفتم قرآن کریم</title>
-  </programme>
-  <programme start="20260225065001 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">صلوات</title>
-  </programme>
-  <programme start="20260225065011 +0330" channel="QuranTV.ir@SD" stop="20260225070011 +0330">
-    <title lang="fa">شمیم رمضان</title>
-  </programme>
-  <programme start="20260225070057 +0330" channel="QuranTV.ir@SD" stop="20260225070157 +0330">
-    <title lang="fa">احکام به زبان ساده</title>
-  </programme>
-  <programme start="20260225070225 +0330" channel="QuranTV.ir@SD" stop="20260225070625 +0330">
-    <title lang="fa">آیت الکرسی</title>
-  </programme>
-  <programme start="20260225070625 +0330" channel="QuranTV.ir@SD" stop="20260225071625 +0330">
-    <title lang="fa">دعای عهد</title>
-  </programme>
-  <programme start="20260225071628 +0330" channel="QuranTV.ir@SD" stop="20260225071728 +0330">
-    <title lang="fa">فراز تلاوت</title>
-  </programme>
-  <programme start="20260225071737 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه سحاب رحمت</title>
-  </programme>
-  <programme start="20260225071802 +0330" channel="QuranTV.ir@SD" stop="20260225075202 +0330">
-    <title lang="fa">سحاب رحمت</title>
-  </programme>
-  <programme start="20260225075255 +0330" channel="QuranTV.ir@SD" stop="20260225075355 +0330">
-    <title lang="fa">اعلام برنامه ها</title>
-  </programme>
-  <programme start="20260225075401 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم قبل از تلاوت</title>
-  </programme>
-  <programme start="20260225075421 +0330" channel="QuranTV.ir@SD" stop="20260225075821 +0330">
-    <title lang="fa">تلاوت محسن سفیدیان</title>
-  </programme>
-  <programme start="20260225075821 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">صلوات</title>
-  </programme>
-  <programme start="20260225075835 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">تیزر اطلاع رسانی مناجات خوانی در مسجد بلال</title>
-  </programme>
-  <programme start="20260225075906 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم استیشن</title>
-  </programme>
-  <programme start="20260225075930 +0330" channel="QuranTV.ir@SD" stop="20260225080030 +0330">
-    <title lang="fa">صلوات خاصه امام رضا علیه السلام</title>
-  </programme>
-  <programme start="20260225080041 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه شب های تلاوت (بازپخش)</title>
-  </programme>
-  <programme start="20260225080106 +0330" channel="QuranTV.ir@SD" stop="20260225085106 +0330">
-    <title lang="fa">بازپخش برنامه شب های تلاوت</title>
-  </programme>
-  <programme start="20260225085115 +0330" channel="QuranTV.ir@SD" stop="20260225085215 +0330">
-    <title lang="fa">موشن سوال مسابقه برنامه آیه- پلی بک</title>
-  </programme>
-  <programme start="20260225085232 +0330" channel="QuranTV.ir@SD" stop="20260225085432 +0330">
-    <title lang="fa">داستان های از مسجد خوب ما</title>
-  </programme>
-  <programme start="20260225085517 +0330" channel="QuranTV.ir@SD" stop="20260225085717 +0330">
-    <title lang="fa">مکتب</title>
-  </programme>
-  <programme start="20260225085807 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">مراسم ماه مبارک رمضان در مسجد جامع امام سجاد علیه</title>
-  </programme>
-  <programme start="20260225085859 +0330" channel="QuranTV.ir@SD" stop="20260225085959 +0330">
-    <title lang="fa">فراز تلاوت</title>
-  </programme>
-  <programme start="20260225090008 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه آیه (زنده)</title>
-  </programme>
-  <programme start="20260225090033 +0330" channel="QuranTV.ir@SD" stop="20260225095533 +0330">
-    <title lang="fa">آیه . زنده</title>
-  </programme>
-  <programme start="20260225095533 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم استیشن</title>
-  </programme>
-  <programme start="20260225095553 +0330" channel="QuranTV.ir@SD" stop="20260225095653 +0330">
-    <title lang="fa">تیزر پویش کتابخوانی باران خوبی ها</title>
-  </programme>
-  <programme start="20260225095734 +0330" channel="QuranTV.ir@SD" stop="20260225095834 +0330">
-    <title lang="fa">احکام به زبان ساده</title>
-  </programme>
-  <programme start="20260225095902 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">تیزر اطلاع رسانی مناجات خوانی در مسجد بلال</title>
-  </programme>
-  <programme start="20260225095933 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم قبل از تلاوت ویژه رمضان</title>
-  </programme>
-  <programme start="20260225095953 +0330" channel="QuranTV.ir@SD" stop="20260225104953 +0330">
-    <title lang="fa">ترتیل خوانی جزء هفتم قرآن کریم</title>
-  </programme>
-  <programme start="20260225104953 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">صلوات</title>
-  </programme>
-  <programme start="20260225105003 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">اعلام برنامه بعدی</title>
-  </programme>
-  <programme start="20260225105053 +0330" channel="QuranTV.ir@SD" stop="20260225110053 +0330">
-    <title lang="fa">مدرسه حفظ - سوره فتح</title>
-  </programme>
-  <programme start="20260225110106 +0330" channel="QuranTV.ir@SD" stop="20260225110206 +0330">
-    <title lang="fa">فراز تلاوت</title>
-  </programme>
-  <programme start="20260225110215 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه بهشت</title>
-  </programme>
-  <programme start="20260225110240 +0330" channel="QuranTV.ir@SD" stop="20260225115940 +0330">
-    <title lang="fa">مسابقه قرآنی بهشت</title>
-  </programme>
-  <programme start="20260225115958 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">تیزر اطلاع رسانی مناجات خوانی در مسجد بلال</title>
-  </programme>
-  <programme start="20260225120000 +0330" channel="QuranTV.ir@SD" stop="20260225120100 +0330">
-    <title lang="fa">دعای ختم قرآن کریم</title>
-  </programme>
-  <programme start="20260225120029 +0330" channel="QuranTV.ir@SD" stop="20260225120129 +0330">
-    <title lang="fa">موشن سوال مسابقه برنامه آیه- پلی بک</title>
-  </programme>
-  <programme start="20260225120146 +0330" channel="QuranTV.ir@SD" stop="20260225120346 +0330">
-    <title lang="fa">امام امت</title>
-  </programme>
-  <programme start="20260225120418 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم استیشن</title>
-  </programme>
-  <programme start="20260225120451 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم قبل از تلاوت ویژه رمضان</title>
-  </programme>
-  <programme start="20260225120511 +0330" channel="QuranTV.ir@SD" stop="20260225121411 +0330">
-    <title lang="fa">تلاوت آقای مهدی سیاحی</title>
-  </programme>
-  <programme start="20260225121501 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">صلوات</title>
-  </programme>
-  <programme start="20260225121515 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">دعای قبل از اذان</title>
-  </programme>
-  <programme start="20260225121600 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">یا رب العالمین</title>
-  </programme>
-  <programme start="20260225121630 +0330" channel="QuranTV.ir@SD" stop="20260225122030 +0330">
-    <title lang="fa">اذان ظهر به وقت تهران . زنده</title>
-  </programme>
-  <programme start="20260225122110 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">حی علی صلاه</title>
-  </programme>
-  <programme start="20260225122142 +0330" channel="QuranTV.ir@SD" stop="20260225122942 +0330">
-    <title lang="fa">نماز جماعت ظهر</title>
-  </programme>
-  <programme start="20260225122957 +0330" channel="QuranTV.ir@SD" stop="20260225123057 +0330">
-    <title lang="fa">دعای سلامتی امام زمان (عج)</title>
-  </programme>
-  <programme start="20260225123127 +0330" channel="QuranTV.ir@SD" stop="20260225123427 +0330">
-    <title lang="fa">دعای ماه رمضان</title>
-  </programme>
-  <programme start="20260225123442 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">دعای روز</title>
-  </programme>
-  <programme start="20260225123536 +0330" channel="QuranTV.ir@SD" stop="20260225124536 +0330">
-    <title lang="fa">شمیم رمضان</title>
-  </programme>
-  <programme start="20260225124622 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">اعلام اذان تهران</title>
-  </programme>
-  <programme start="20260225124704 +0330" channel="QuranTV.ir@SD" stop="20260225124804 +0330">
-    <title lang="fa">فراز تلاوت</title>
-  </programme>
-  <programme start="20260225124813 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">تیزر اطلاع رسانی مناجات خوانی در مسجد بلال</title>
-  </programme>
-  <programme start="20260225124844 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه آیه زندگی . زنده</title>
-  </programme>
-  <programme start="20260225124909 +0330" channel="QuranTV.ir@SD" stop="20260225125909 +0330">
-    <title lang="fa">آیه زندگی . زنده</title>
-  </programme>
-  <programme start="20260225125909 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم استیشن ویژه رمضان</title>
-  </programme>
-  <programme start="20260225125929 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">تیزر مسجد به مسجد</title>
-  </programme>
-  <programme start="20260225130008 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم سخنرانی آیت الله ناصری</title>
-  </programme>
-  <programme start="20260225130033 +0330" channel="QuranTV.ir@SD" stop="20260225131933 +0330">
-    <title lang="fa">سخنرانی آیت الله ناصری</title>
-  </programme>
-  <programme start="20260225132001 +0330" channel="QuranTV.ir@SD" stop="20260225132101 +0330">
-    <title lang="fa">تیزر پویش کتابخوانی باران خوبی ها</title>
-  </programme>
-  <programme start="20260225132142 +0330" channel="QuranTV.ir@SD" stop="20260225132242 +0330">
-    <title lang="fa">فراز تلاوت</title>
-  </programme>
-  <programme start="20260225132251 +0330" channel="QuranTV.ir@SD" stop="20260225132351 +0330">
-    <title lang="fa">تیزر برنامه شب های تلاوت</title>
-  </programme>
-  <programme start="20260225132351 +0330" channel="QuranTV.ir@SD" stop="20260225132751 +0330">
-    <title lang="fa">شعرخوانی</title>
-  </programme>
-  <programme start="20260225132810 +0330" channel="QuranTV.ir@SD" stop="20260225132910 +0330">
-    <title lang="fa">موشن سوال مسابقه برنامه آیه- پلی بک</title>
-  </programme>
-  <programme start="20260225132927 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم قبل از ترتیل</title>
-  </programme>
-  <programme start="20260225132947 +0330" channel="QuranTV.ir@SD" stop="20260225142847 +0330">
-    <title lang="fa">ترتیل خوانی قرآن کریم . زنده</title>
-  </programme>
-  <programme start="20260225142847 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">صلوات</title>
-  </programme>
-  <programme start="20260225142901 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">مراسم ماه مبارک رمضان در مسجد جامع امام سجاد علیه</title>
-  </programme>
-  <programme start="20260225142953 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه در آستان جانان</title>
-  </programme>
-  <programme start="20260225143018 +0330" channel="QuranTV.ir@SD" stop="20260225145918 +0330">
-    <title lang="fa">درآستان جانان</title>
-  </programme>
-  <programme start="20260225145938 +0330" channel="QuranTV.ir@SD" stop="20260225150038 +0330">
-    <title lang="fa">اعلام برنامه ها</title>
-  </programme>
-  <programme start="20260225150044 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">اعلام اذان تهران</title>
-  </programme>
-  <programme start="20260225150126 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه محفل ستاره ها</title>
-  </programme>
-  <programme start="20260225150151 +0330" channel="QuranTV.ir@SD" stop="20260225153051 +0330">
-    <title lang="fa">محفل ستاره ها</title>
-  </programme>
-  <programme start="20260225153144 +0330" channel="QuranTV.ir@SD" stop="20260225153244 +0330">
-    <title lang="fa">فراز تلاوت</title>
-  </programme>
-  <programme start="20260225153253 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه پویا نمایی پهلوانان</title>
-  </programme>
-  <programme start="20260225153318 +0330" channel="QuranTV.ir@SD" stop="20260225160118 +0330">
-    <title lang="fa">پویا نمایی پهلوانان</title>
-  </programme>
-  <programme start="20260225160212 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم استیشن</title>
-  </programme>
-  <programme start="20260225160232 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه منم بچه مسلمان</title>
-  </programme>
-  <programme start="20260225160257 +0330" channel="QuranTV.ir@SD" stop="20260225163657 +0330">
-    <title lang="fa">منم بچه مسلمان</title>
-  </programme>
-  <programme start="20260225163744 +0330" channel="QuranTV.ir@SD" stop="20260225164444 +0330">
-    <title lang="fa">نوجواب1404</title>
-  </programme>
-  <programme start="20260225164456 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">اعلام برنامه بعدی</title>
-  </programme>
-  <programme start="20260225164546 +0330" channel="QuranTV.ir@SD" stop="20260225165046 +0330">
-    <title lang="fa">نمادین</title>
-  </programme>
-  <programme start="20260225165135 +0330" channel="QuranTV.ir@SD" stop="20260225170035 +0330">
-    <title lang="fa">مداحی و روضه خوانی حاج سعید حدادیان</title>
-  </programme>
-  <programme start="20260225170100 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم یاد خدا . زنده</title>
-  </programme>
-  <programme start="20260225170125 +0330" channel="QuranTV.ir@SD" stop="20260225180925 +0330">
-    <title lang="fa">یاد خدا . زنده (ویژه برنامه افطار)</title>
-  </programme>
-  <programme start="20260225180955 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم استیشن</title>
-  </programme>
-  <programme start="20260225181010 +0330" channel="QuranTV.ir@SD" stop="20260225181310 +0330">
-    <title lang="fa">احسن الاسماء</title>
-  </programme>
-  <programme start="20260225181330 +0330" channel="QuranTV.ir@SD" stop="20260225181730 +0330">
-    <title lang="fa">اذان مغرب به افق تهران . زنده</title>
-  </programme>
-  <programme start="20260225181732 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">حی علی صلاه</title>
-  </programme>
-  <programme start="20260225181804 +0330" channel="QuranTV.ir@SD" stop="20260225182304 +0330">
-    <title lang="fa">نماز جماعت مغرب</title>
-  </programme>
-  <programme start="20260225182323 +0330" channel="QuranTV.ir@SD" stop="20260225182423 +0330">
-    <title lang="fa">دعای سلامتی امام زمان(عج)</title>
-  </programme>
-  <programme start="20260225182449 +0330" channel="QuranTV.ir@SD" stop="20260225182549 +0330">
-    <title lang="fa">دعای ماه رمضان</title>
-  </programme>
-  <programme start="20260225182559 +0330" channel="QuranTV.ir@SD" stop="20260225183159 +0330">
-    <title lang="fa">کلیدهای بهشت-شرح دعای ابوحمزه ثمالی</title>
-  </programme>
-  <programme start="20260225183247 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">تیزر اطلاع رسانی مناجات خوانی در مسجد بلال</title>
-  </programme>
-  <programme start="20260225183318 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه بهشت</title>
-  </programme>
-  <programme start="20260225183343 +0330" channel="QuranTV.ir@SD" stop="20260225193343 +0330">
-    <title lang="fa">مسابقه قرآنی بهشت</title>
-  </programme>
-  <programme start="20260225193413 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم معرفی برنامه نمایشگاه قرآن کریم . زنده</title>
-  </programme>
-  <programme start="20260225193438 +0330" channel="QuranTV.ir@SD" stop="20260225195838 +0330">
-    <title lang="fa">نمایشگاه قرآن کریم . زنده</title>
-  </programme>
-  <programme start="20260225195908 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم استیشن</title>
-  </programme>
-  <programme start="20260225195930 +0330" channel="QuranTV.ir@SD" stop="20260225200030 +0330">
-    <title lang="fa">صلوات خاصه امام رضا علیه السلام</title>
-  </programme>
-  <programme start="20260225200035 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه ستاره های زمین</title>
-  </programme>
-  <programme start="20260225200100 +0330" channel="QuranTV.ir@SD" stop="20260225202900 +0330">
-    <title lang="fa">ستاره های زمین</title>
-  </programme>
-  <programme start="20260225202937 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">تیزر اطلاع رسانی مناجات خوانی در مسجد بلال</title>
-  </programme>
-  <programme start="20260225203008 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه آیه زندگی . زنده</title>
-  </programme>
-  <programme start="20260225203033 +0330" channel="QuranTV.ir@SD" stop="20260225205033 +0330">
-    <title lang="fa">آیه های زندگی . زنده</title>
-  </programme>
-  <programme start="20260225205033 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم استیشن</title>
-  </programme>
-  <programme start="20260225205053 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه آیه زندگی . زنده</title>
-  </programme>
-  <programme start="20260225205118 +0330" channel="QuranTV.ir@SD" stop="20260225210018 +0330">
-    <title lang="fa">آیه زندگی . زنده</title>
-  </programme>
-  <programme start="20260225210018 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه شب های تلاوت (زنده)</title>
-  </programme>
-  <programme start="20260225210043 +0330" channel="QuranTV.ir@SD" stop="20260225214943 +0330">
-    <title lang="fa">شب های تلاوت (زنده)</title>
-  </programme>
-  <programme start="20260225214943 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم استیشن</title>
-  </programme>
-  <programme start="20260225215003 +0330" channel="QuranTV.ir@SD" stop="20260225220003 +0330">
-    <title lang="fa">مسجد به مسجد</title>
-  </programme>
-  <programme start="20260225220017 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه بهشت</title>
-  </programme>
-  <programme start="20260225220042 +0330" channel="QuranTV.ir@SD" stop="20260225230042 +0330">
-    <title lang="fa">مسابقه قرآنی بهشت</title>
-  </programme>
-  <programme start="20260225230112 +0330" channel="QuranTV.ir@SD" stop="20260225230212 +0330">
-    <title lang="fa">فراز تلاوت</title>
-  </programme>
-  <programme start="20260225230221 +0330" channel="QuranTV.ir@SD" stop="20260225230421 +0330">
-    <title lang="fa">مکتب</title>
-  </programme>
-  <programme start="20260225230511 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">آرم برنامه مناجات خوانی</title>
-  </programme>
-  <programme start="20260225230536 +0330" channel="QuranTV.ir@SD" stop="20260225234736 +0330">
+  <programme start="20260226020623 +0330" channel="QuranTV.ir@SD" stop="20260226020923 +0330">
     <title lang="fa">مناجات خوانی</title>
   </programme>
-  <programme start="20260225234736 +0330" channel="QuranTV.ir@SD" stop="20260225234836 +0330">
-    <title lang="fa">کلیپ تلاوت</title>
+  <programme start="20260226020935 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه تفسیر و قرائت دعای افتتاح(زنده)</title>
   </programme>
-  <programme start="20260225234912 +0330" channel="QuranTV.ir@SD" stop="20260225235112 +0330">
-    <title lang="fa">کلیپ ضیافت محبوب</title>
+  <programme start="20260226021000 +0330" channel="QuranTV.ir@SD" stop="20260226023900 +0330">
+    <title lang="fa">شرح و تفسیر دعای افتتاح . زنده</title>
   </programme>
-  <programme start="20260225235121 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260226023900 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم استیشن</title>
+  </programme>
+  <programme start="20260226023920 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">فراز تلاوت</title>
+  </programme>
+  <programme start="20260226024014 +0330" channel="QuranTV.ir@SD" stop="20260226024214 +0330">
+    <title lang="fa">اوقات شرعی اماکن مذهبی</title>
+  </programme>
+  <programme start="20260226024214 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه آیه زندگی . زنده</title>
+  </programme>
+  <programme start="20260226024239 +0330" channel="QuranTV.ir@SD" stop="20260226025039 +0330">
+    <title lang="fa">آیه زندگی . زنده</title>
+  </programme>
+  <programme start="20260226025039 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه آیه زندگی . زنده</title>
+  </programme>
+  <programme start="20260226025104 +0330" channel="QuranTV.ir@SD" stop="20260226030904 +0330">
+    <title lang="fa">آیه های زندگی . زنده</title>
+  </programme>
+  <programme start="20260226030934 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه مناجات خوانی</title>
+  </programme>
+  <programme start="20260226030959 +0330" channel="QuranTV.ir@SD" stop="20260226032859 +0330">
+    <title lang="fa">مداحی و روضه خوانی حاج سعید حدادیان</title>
+  </programme>
+  <programme start="20260226032951 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم نفحات . زنده</title>
+  </programme>
+  <programme start="20260226033016 +0330" channel="QuranTV.ir@SD" stop="20260226054516 +0330">
+    <title lang="fa">نفحات . زنده(ویژه سحر ماه مبارک رمضان)</title>
+  </programme>
+  <programme start="20260226054516 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم قبل از تلاوت ویژه رمضان</title>
+  </programme>
+  <programme start="20260226054536 +0330" channel="QuranTV.ir@SD" stop="20260226064636 +0330">
+    <title lang="fa">ترتیل خوانی جزء هشتم قرآن کریم</title>
+  </programme>
+  <programme start="20260226064728 +0330" channel="QuranTV.ir@SD" stop="20260226064828 +0330">
+    <title lang="fa">صلوات</title>
+  </programme>
+  <programme start="20260226064832 +0330" channel="QuranTV.ir@SD" stop="20260226065832 +0330">
+    <title lang="fa">شمیم رمضان</title>
+  </programme>
+  <programme start="20260226065918 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">میان برنامه احکام به زبان ساده</title>
+  </programme>
+  <programme start="20260226070007 +0330" channel="QuranTV.ir@SD" stop="20260226070307 +0330">
+    <title lang="fa">آیت الکرسی</title>
+  </programme>
+  <programme start="20260226070342 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">تیزر مسجد به مسجد</title>
+  </programme>
+  <programme start="20260226070421 +0330" channel="QuranTV.ir@SD" stop="20260226071221 +0330">
+    <title lang="fa">دعای عهد</title>
+  </programme>
+  <programme start="20260226071240 +0330" channel="QuranTV.ir@SD" stop="20260226071540 +0330">
+    <title lang="fa">مکتب</title>
+  </programme>
+  <programme start="20260226071540 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">تیزر یاد خدا ماه رمضان</title>
+  </programme>
+  <programme start="20260226071622 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">فراز تلاوت</title>
+  </programme>
+  <programme start="20260226071716 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه سحاب رحمت</title>
+  </programme>
+  <programme start="20260226071741 +0330" channel="QuranTV.ir@SD" stop="20260226075341 +0330">
+    <title lang="fa">سحاب رحمت</title>
+  </programme>
+  <programme start="20260226075413 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">آرم قبل از تلاوت</title>
   </programme>
-  <programme start="20260225235141 +0330" channel="QuranTV.ir@SD" stop="20260225235741 +0330">
-    <title lang="fa">تلاوت حجاج رمضان هنداوی</title>
+  <programme start="20260226075433 +0330" channel="QuranTV.ir@SD" stop="20260226075733 +0330">
+    <title lang="fa">تلاوت آقای پیمان صدفی</title>
   </programme>
-  <programme start="20260225235753 +0330" channel="QuranTV.ir@SD" stop="20260225235953 +0330">
+  <programme start="20260226075829 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">صلوات</title>
+  </programme>
+  <programme start="20260226075910 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم استیشن</title>
+  </programme>
+  <programme start="20260226075930 +0330" channel="QuranTV.ir@SD" stop="20260226080030 +0330">
+    <title lang="fa">صلوات خاصه امام رضا علیه السلام</title>
+  </programme>
+  <programme start="20260226080041 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه شب های تلاوت (بازپخش)</title>
+  </programme>
+  <programme start="20260226080106 +0330" channel="QuranTV.ir@SD" stop="20260226085106 +0330">
+    <title lang="fa">بازپخش برنامه شب های تلاوت</title>
+  </programme>
+  <programme start="20260226085203 +0330" channel="QuranTV.ir@SD" stop="20260226085703 +0330">
+    <title lang="fa">تربت ما</title>
+  </programme>
+  <programme start="20260226085719 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">فراز تلاوت</title>
+  </programme>
+  <programme start="20260226085813 +0330" channel="QuranTV.ir@SD" stop="20260226085913 +0330">
+    <title lang="fa">تیزر یاد خدا</title>
+  </programme>
+  <programme start="20260226090003 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه آیه (زنده)</title>
+  </programme>
+  <programme start="20260226090028 +0330" channel="QuranTV.ir@SD" stop="20260226095528 +0330">
+    <title lang="fa">آیه زنده</title>
+  </programme>
+  <programme start="20260226095528 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم استیشن</title>
+  </programme>
+  <programme start="20260226095548 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">میان برنامه احکام به زبان ساده</title>
+  </programme>
+  <programme start="20260226095637 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">فراز تلاوت</title>
+  </programme>
+  <programme start="20260226095731 +0330" channel="QuranTV.ir@SD" stop="20260226095831 +0330">
+    <title lang="fa">تیزربرنامه نفحات- سحررمضان 1404</title>
+  </programme>
+  <programme start="20260226095909 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم قبل از تلاوت ویژه رمضان</title>
+  </programme>
+  <programme start="20260226095929 +0330" channel="QuranTV.ir@SD" stop="20260226105029 +0330">
+    <title lang="fa">ترتیل خوانی جزء هشتم قرآن کریم</title>
+  </programme>
+  <programme start="20260226105113 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">صلوات</title>
+  </programme>
+  <programme start="20260226105123 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">اعلام برنامه بعدی</title>
+  </programme>
+  <programme start="20260226105213 +0330" channel="QuranTV.ir@SD" stop="20260226105313 +0330">
+    <title lang="fa">تیزر پویش کتابخوانی باران خوبی ها</title>
+  </programme>
+  <programme start="20260226105354 +0330" channel="QuranTV.ir@SD" stop="20260226105754 +0330">
+    <title lang="fa">شعرخوانی</title>
+  </programme>
+  <programme start="20260226105813 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه بهشت</title>
+  </programme>
+  <programme start="20260226105838 +0330" channel="QuranTV.ir@SD" stop="20260226115838 +0330">
+    <title lang="fa">مسابقه قرآنی بهشت - 1404</title>
+  </programme>
+  <programme start="20260226115908 +0330" channel="QuranTV.ir@SD" stop="20260226120008 +0330">
+    <title lang="fa">کلیپ شهید مطهری</title>
+  </programme>
+  <programme start="20260226120000 +0330" channel="QuranTV.ir@SD" stop="20260226120100 +0330">
+    <title lang="fa">دعای ختم قرآن کریم</title>
+  </programme>
+  <programme start="20260226120059 +0330" channel="QuranTV.ir@SD" stop="20260226120159 +0330">
+    <title lang="fa">موشن سوال مسابقه برنامه آیه- پلی بک</title>
+  </programme>
+  <programme start="20260226120214 +0330" channel="QuranTV.ir@SD" stop="20260226120414 +0330">
+    <title lang="fa">امام امت</title>
+  </programme>
+  <programme start="20260226120502 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم استیشن</title>
+  </programme>
+  <programme start="20260226120521 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم قبل از تلاوت ویژه رمضان</title>
+  </programme>
+  <programme start="20260226120541 +0330" channel="QuranTV.ir@SD" stop="20260226121441 +0330">
+    <title lang="fa">تلاوت آقای مهدی غلام نژاد</title>
+  </programme>
+  <programme start="20260226121443 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">صلوات</title>
+  </programme>
+  <programme start="20260226121504 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">دعای قبل از اذان</title>
+  </programme>
+  <programme start="20260226121600 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">یا رب العالمین</title>
+  </programme>
+  <programme start="20260226121630 +0330" channel="QuranTV.ir@SD" stop="20260226122030 +0330">
+    <title lang="fa">اذان ظهر به وقت تهران . زنده</title>
+  </programme>
+  <programme start="20260226122103 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">حی علی صلاه</title>
+  </programme>
+  <programme start="20260226122135 +0330" channel="QuranTV.ir@SD" stop="20260226122735 +0330">
+    <title lang="fa">نماز جماعت ظهر به امامت آیت ا... علوی گرگانی</title>
+  </programme>
+  <programme start="20260226122813 +0330" channel="QuranTV.ir@SD" stop="20260226122913 +0330">
+    <title lang="fa">دعای سلامتی امام زمان عجل الله تعالی فرجه الشریف</title>
+  </programme>
+  <programme start="20260226122941 +0330" channel="QuranTV.ir@SD" stop="20260226123141 +0330">
+    <title lang="fa">دعا ماه رمضان</title>
+  </programme>
+  <programme start="20260226123200 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">دعای روز هشتم رمضان</title>
+  </programme>
+  <programme start="20260226123251 +0330" channel="QuranTV.ir@SD" stop="20260226124251 +0330">
+    <title lang="fa">شمیم رمضان</title>
+  </programme>
+  <programme start="20260226124337 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">اعلام اذان تهران</title>
+  </programme>
+  <programme start="20260226124419 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">معرفی کلی برنامه های امروز</title>
+  </programme>
+  <programme start="20260226124504 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">فراز تلاوت</title>
+  </programme>
+  <programme start="20260226124558 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه آیه زندگی . زنده</title>
+  </programme>
+  <programme start="20260226124623 +0330" channel="QuranTV.ir@SD" stop="20260226125723 +0330">
+    <title lang="fa">آیه زندگی . زنده</title>
+  </programme>
+  <programme start="20260226125753 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم استیشن ویژه رمضان</title>
+  </programme>
+  <programme start="20260226125813 +0330" channel="QuranTV.ir@SD" stop="20260226125913 +0330">
+    <title lang="fa">تیزر یاد خدا</title>
+  </programme>
+  <programme start="20260226130003 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه ستاره های زمین</title>
+  </programme>
+  <programme start="20260226130028 +0330" channel="QuranTV.ir@SD" stop="20260226132728 +0330">
+    <title lang="fa">ستاره های زمین</title>
+  </programme>
+  <programme start="20260226132810 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">اعلام اذان تهران</title>
+  </programme>
+  <programme start="20260226132852 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">فراز تلاوت</title>
+  </programme>
+  <programme start="20260226132946 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">تیزر یاد خدا ماه رمضان</title>
+  </programme>
+  <programme start="20260226133028 +0330" channel="QuranTV.ir@SD" stop="20260226133328 +0330">
+    <title lang="fa">مکتب</title>
+  </programme>
+  <programme start="20260226133328 +0330" channel="QuranTV.ir@SD" stop="20260226133428 +0330">
+    <title lang="fa">تیزربرنامه نفحات- سحررمضان 1404</title>
+  </programme>
+  <programme start="20260226133506 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم قبل از ترتیل</title>
+  </programme>
+  <programme start="20260226133526 +0330" channel="QuranTV.ir@SD" stop="20260226143826 +0330">
+    <title lang="fa">ترتیل خوانی قرآن کریم . زنده</title>
+  </programme>
+  <programme start="20260226143856 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">صلوات</title>
+  </programme>
+  <programme start="20260226143910 +0330" channel="QuranTV.ir@SD" stop="20260226144010 +0330">
+    <title lang="fa">تیزر ستاره های زمین</title>
+  </programme>
+  <programme start="20260226144010 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه در آستان جانان</title>
+  </programme>
+  <programme start="20260226144035 +0330" channel="QuranTV.ir@SD" stop="20260226150935 +0330">
+    <title lang="fa">درآستان جانان</title>
+  </programme>
+  <programme start="20260226151034 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">اعلام اذان تهران</title>
+  </programme>
+  <programme start="20260226151116 +0330" channel="QuranTV.ir@SD" stop="20260226151916 +0330">
+    <title lang="fa">آموزش قرآن - احمد ابوالقاسمی</title>
+  </programme>
+  <programme start="20260226151917 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه محفل ستاره ها</title>
+  </programme>
+  <programme start="20260226151942 +0330" channel="QuranTV.ir@SD" stop="20260226154642 +0330">
+    <title lang="fa">محفل ستاره ها</title>
+  </programme>
+  <programme start="20260226154728 +0330" channel="QuranTV.ir@SD" stop="20260226155928 +0330">
+    <title lang="fa">مدرسه حفظ قرآن کریم - سوره مبارکه فتح</title>
+  </programme>
+  <programme start="20260226160022 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه منم بچه مسلمان</title>
+  </programme>
+  <programme start="20260226160047 +0330" channel="QuranTV.ir@SD" stop="20260226163447 +0330">
+    <title lang="fa">منم بچه مسلمان8</title>
+  </programme>
+  <programme start="20260226163523 +0330" channel="QuranTV.ir@SD" stop="20260226164223 +0330">
+    <title lang="fa">نوجواب</title>
+  </programme>
+  <programme start="20260226164308 +0330" channel="QuranTV.ir@SD" stop="20260226164408 +0330">
+    <title lang="fa">موشن سوال مسابقه برنامه آیه- پلی بک</title>
+  </programme>
+  <programme start="20260226164423 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">اعلام برنامه بعدی</title>
+  </programme>
+  <programme start="20260226164513 +0330" channel="QuranTV.ir@SD" stop="20260226164613 +0330">
+    <title lang="fa">تیزربرنامه نفحات- سحررمضان 1404</title>
+  </programme>
+  <programme start="20260226164651 +0330" channel="QuranTV.ir@SD" stop="20260226165751 +0330">
+    <title lang="fa">مناجات خوانی حاج سعید حدادیان</title>
+  </programme>
+  <programme start="20260226165751 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">اعلام اذان تهران</title>
+  </programme>
+  <programme start="20260226165833 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">تیزر مسجد به مسجد</title>
+  </programme>
+  <programme start="20260226165912 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">فراز تلاوت</title>
+  </programme>
+  <programme start="20260226170006 +0330" channel="QuranTV.ir@SD" stop="20260226170106 +0330">
+    <title lang="fa">تیزر برنامه شب های تلاوت</title>
+  </programme>
+  <programme start="20260226170106 +0330" channel="QuranTV.ir@SD" stop="20260226170706 +0330">
+    <title lang="fa">تربت ما</title>
+  </programme>
+  <programme start="20260226170738 +0330" channel="QuranTV.ir@SD" stop="20260226170838 +0330">
+    <title lang="fa">موشن سوال مسابقه برنامه آیه- پلی بک</title>
+  </programme>
+  <programme start="20260226170853 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">اعلام اذان تهران</title>
+  </programme>
+  <programme start="20260226170935 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم یاد خدا . زنده</title>
+  </programme>
+  <programme start="20260226171000 +0330" channel="QuranTV.ir@SD" stop="20260226181000 +0330">
+    <title lang="fa">یاد خدا . زنده (ویژه برنامه افطار)</title>
+  </programme>
+  <programme start="20260226181030 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم استیشن</title>
+  </programme>
+  <programme start="20260226181038 +0330" channel="QuranTV.ir@SD" stop="20260226181338 +0330">
+    <title lang="fa">اسماء الحسنی</title>
+  </programme>
+  <programme start="20260226181430 +0330" channel="QuranTV.ir@SD" stop="20260226181830 +0330">
+    <title lang="fa">اذان مغرب به افق تهران . زنده</title>
+  </programme>
+  <programme start="20260226181925 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">دعای افطار</title>
+  </programme>
+  <programme start="20260226182019 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">حی علی صلاه</title>
+  </programme>
+  <programme start="20260226182051 +0330" channel="QuranTV.ir@SD" stop="20260226182651 +0330">
+    <title lang="fa">نماز جماعت مغرب</title>
+  </programme>
+  <programme start="20260226182706 +0330" channel="QuranTV.ir@SD" stop="20260226182806 +0330">
+    <title lang="fa">دعای سلامتی امام زمان (عج)</title>
+  </programme>
+  <programme start="20260226182836 +0330" channel="QuranTV.ir@SD" stop="20260226183036 +0330">
+    <title lang="fa">دعای ماه مبارک رمضان</title>
+  </programme>
+  <programme start="20260226183119 +0330" channel="QuranTV.ir@SD" stop="20260226183519 +0330">
+    <title lang="fa">کلیدهای بهشت-شرح دعای ابوحمزه ثمالی</title>
+  </programme>
+  <programme start="20260226183557 +0330" channel="QuranTV.ir@SD" stop="20260226183657 +0330">
+    <title lang="fa">تیزر پویش کتابخوانی باران خوبی ها</title>
+  </programme>
+  <programme start="20260226183738 +0330" channel="QuranTV.ir@SD" stop="20260226183938 +0330">
+    <title lang="fa">اوقات شرعی اماکن مذهبی</title>
+  </programme>
+  <programme start="20260226183938 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه بهشت</title>
+  </programme>
+  <programme start="20260226184003 +0330" channel="QuranTV.ir@SD" stop="20260226193903 +0330">
+    <title lang="fa">مسابقه قرآنی بهشت 1404</title>
+  </programme>
+  <programme start="20260226193926 +0330" channel="QuranTV.ir@SD" stop="20260226194126 +0330">
+    <title lang="fa">اوقات شرعی اماکن مذهبی</title>
+  </programme>
+  <programme start="20260226194126 +0330" channel="QuranTV.ir@SD" stop="20260226194926 +0330">
+    <title lang="fa">آموزش قرآن - احمد ابوالقاسمی</title>
+  </programme>
+  <programme start="20260226194927 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم معرفی برنامه نمایشگاه قرآن کریم . زنده</title>
+  </programme>
+  <programme start="20260226194952 +0330" channel="QuranTV.ir@SD" stop="20260226201952 +0330">
+    <title lang="fa">نمایشگاه قرآن کریم . زنده</title>
+  </programme>
+  <programme start="20260226201952 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">فراز تلاوت</title>
+  </programme>
+  <programme start="20260226202046 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه آیه زندگی . زنده</title>
+  </programme>
+  <programme start="20260226202111 +0330" channel="QuranTV.ir@SD" stop="20260226204611 +0330">
+    <title lang="fa">آیه های زندگی . زنده</title>
+  </programme>
+  <programme start="20260226204611 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم استیشن</title>
+  </programme>
+  <programme start="20260226204631 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه آیه زندگی . زنده</title>
+  </programme>
+  <programme start="20260226204656 +0330" channel="QuranTV.ir@SD" stop="20260226205956 +0330">
+    <title lang="fa">آیه زندگی . زنده</title>
+  </programme>
+  <programme start="20260226205956 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه شب های تلاوت (زنده)</title>
+  </programme>
+  <programme start="20260226210021 +0330" channel="QuranTV.ir@SD" stop="20260226214521 +0330">
+    <title lang="fa">شب های تلاوت (زنده)</title>
+  </programme>
+  <programme start="20260226214521 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم استیشن</title>
+  </programme>
+  <programme start="20260226214541 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">فراز تلاوت</title>
+  </programme>
+  <programme start="20260226214635 +0330" channel="QuranTV.ir@SD" stop="20260226214835 +0330">
+    <title lang="fa">اوقات شرعی اماکن مذهبی</title>
+  </programme>
+  <programme start="20260226214835 +0330" channel="QuranTV.ir@SD" stop="20260226215735 +0330">
+    <title lang="fa">مسجد به مسجد</title>
+  </programme>
+  <programme start="20260226215801 +0330" channel="QuranTV.ir@SD" stop="20260226215901 +0330">
+    <title lang="fa">تیزربرنامه نفحات- سحررمضان 1404</title>
+  </programme>
+  <programme start="20260226215939 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه بهشت</title>
+  </programme>
+  <programme start="20260226220004 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه یا کاشف الکرب</title>
+  </programme>
+  <programme start="20260226220029 +0330" channel="QuranTV.ir@SD" stop="20260226225529 +0330">
+    <title lang="fa">یا کاشف الکرب . زنده (کربلای معلی)</title>
+  </programme>
+  <programme start="20260226225529 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">فراز تلاوت</title>
+  </programme>
+  <programme start="20260226225623 +0330" channel="QuranTV.ir@SD" stop="20260226230023 +0330">
+    <title lang="fa">کلیپ شب زیارتی حضرت اباعبدالله الحسین علیه السلام</title>
+  </programme>
+  <programme start="20260226230053 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم برنامه مناجات خوانی</title>
+  </programme>
+  <programme start="20260226230118 +0330" channel="QuranTV.ir@SD" stop="20260226234618 +0330">
+    <title lang="fa">مناجات خوانی</title>
+  </programme>
+  <programme start="20260226234618 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">آرم قبل از تلاوت</title>
+  </programme>
+  <programme start="20260226234631 +0330" channel="QuranTV.ir@SD" stop="20260226235731 +0330">
+    <title lang="fa">تلاوت محمداللیثی</title>
+  </programme>
+  <programme start="20260226235755 +0330" channel="QuranTV.ir@SD" stop="20260226235955 +0330">
     <title lang="fa">صلوات</title>
   </programme>
   <channel id="Radio Quran">
     <display-name>Radio Quran</display-name>
     <icon src="https://logoyab.com/wp-content/uploads/2024/08/Radio-Quran-Logo.png"/>
   </channel>
-  <programme start="20260225000000 +0330" channel="Radio Quran" stop="20260225000500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">تیك تاك، فراز تلاوت و اعلام گوینده
-اعلام ساعت، فراز تلاوت، آنونس، گوینده</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225000500 +0330" channel="Radio Quran" stop="20260225002000 +0330">
-    <title lang="fa">تلاوت آقای جواد پناهی</title>
-    <desc lang="fa">سوره طه آیات 90-115
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225002000 +0330" channel="Radio Quran" stop="20260225002500 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">كمك به مردم غزه
-شرح و توضیح تلاوت</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225002500 +0330" channel="Radio Quran" stop="20260225003500 +0330">
-    <title lang="fa">تلاوت استاد عبدالناصر حرك</title>
-    <desc lang="fa">سوره های بروج آیه 11 و كوثر
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225003500 +0330" channel="Radio Quran" stop="20260225004000 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آنونس رادیو قرآن
-میان برنامه</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225004000 +0330" channel="Radio Quran" stop="20260225010000 +0330">
-    <title lang="fa">تلاوت استاد طه الفشنی</title>
-    <desc lang="fa">سوره ص آیات 1-25
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225010000 +0330" channel="Radio Quran" stop="20260225010500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">راس ساعت
-اعلام ساعت، فراز تلاوت، گوینده، شرح و توضیح تلاوت</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225010500 +0330" channel="Radio Quran" stop="20260225012000 +0330">
-    <title lang="fa">تلاوت آقای حمیدرضا احمدی وفا</title>
-    <desc lang="fa">سوره های فتح آیه 27 و كوثر
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225012000 +0330" channel="Radio Quran" stop="20260225012500 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">پویش صلوات
-گوینده، فراز تلاوت، آنونس،</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225012500 +0330" channel="Radio Quran" stop="20260225015500 +0330">
-    <title lang="fa">تلاوت استاد احمد ابوالمعاطی</title>
-    <desc lang="fa">سوره طه آیات 1-41
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225015500 +0330" channel="Radio Quran" stop="20260225020000 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آیتم های رادیو قرآن
-میان برنامه</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225020000 +0330" channel="Radio Quran" stop="20260225020500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">تیك تاك، فراز تلاوت و اعلام گوینده
-اعلام ساعت، فراز تلاوت، آنونس</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225020500 +0330" channel="Radio Quran" stop="20260225023000 +0330">
-    <title lang="fa">تلاوت آقای حسین كرمی</title>
-    <desc lang="fa">زخرف 26-56
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225023000 +0330" channel="Radio Quran" stop="20260225030000 +0330">
-    <title lang="fa">تلاوت استاد محمد لیثی</title>
-    <desc lang="fa">یوسف 1-34
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225030000 +0330" channel="Radio Quran" stop="20260225030500 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">اعلام ساعت
-شرح و توضیح تلاوت</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225030500 +0330" channel="Radio Quran" stop="20260225035500 +0330">
-    <title lang="fa">تلاوت استاد محمد لیثی</title>
-    <desc lang="fa">یوسف 1-34
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225035500 +0330" channel="Radio Quran" stop="20260225040000 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">كمك به مردم غزه
-پخش، شرح و توضیح تلاوت</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225040000 +0330" channel="Radio Quran" stop="20260225040500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">راس ساعت
-گوینده آنونس</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225040500 +0330" channel="Radio Quran" stop="20260225044000 +0330">
-    <title lang="fa">تلاوت استاد مصطفی اسماعیل</title>
-    <desc lang="fa">ق 31 و حاقه 1-24 و شمس 1-8
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225044000 +0330" channel="Radio Quran" stop="20260225054500 +0330">
-    <title lang="fa">اذانگاهی</title>
-    <desc lang="fa">اذان صبح به افق تهران
-ساعت: 05:16</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225054500 +0330" channel="Radio Quran" stop="20260225055500 +0330">
-    <title lang="fa">تلاوت آقای علی خشنود</title>
-    <desc lang="fa">اعراف 130-143
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225055500 +0330" channel="Radio Quran" stop="20260225060000 +0330">
-    <title lang="fa">دعای عهد</title>
-    <desc lang="fa">دعا
-دعای عهد تامینی</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=058129"/>
-  </programme>
-  <programme start="20260225060000 +0330" channel="Radio Quran" stop="20260225060500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">تیك تاك
-اعلام ساعت، فراز تلاوت ، آنونس، گوینده</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225060500 +0330" channel="Radio Quran" stop="20260225062500 +0330">
-    <title lang="fa">تلاوت آقای محمد عباسی</title>
-    <desc lang="fa">صافات 75-122
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225062500 +0330" channel="Radio Quran" stop="20260225063000 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آنونس رادیو قرآن
-گوینده پخش</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225063000 +0330" channel="Radio Quran" stop="20260225070000 +0330">
-    <title lang="fa">تلاوت استاد شعبان صیاد</title>
-    <desc lang="fa">فرقان 45-70
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225070000 +0330" channel="Radio Quran" stop="20260225070500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">میان برنامه
-اعلام ساعت، فراز تلاوت، گوینده</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225070500 +0330" channel="Radio Quran" stop="20260225073000 +0330">
-    <title lang="fa">تلاوت استاد عبدالفتاح طاروطی</title>
-    <desc lang="fa">مزمل 19 و نازعات 26-41
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225073000 +0330" channel="Radio Quran" stop="20260225073500 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آنونس رادیو قرآن
-آنونس، گوینده</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225073500 +0330" channel="Radio Quran" stop="20260225080000 +0330">
-    <title lang="fa">تلاوت استاد محمد عبدالعزیز حصان</title>
-    <desc lang="fa">اسراء 25-59
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225080000 +0330" channel="Radio Quran" stop="20260225080500 +0330">
-    <title lang="fa">راس ساعت</title>
-    <desc lang="fa">فراز تلاوت
- راس ساعت</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225080500 +0330" channel="Radio Quran" stop="20260225081500 +0330">
-    <title lang="fa">تلاوت آقای محمدرضا پورزرگری</title>
-    <desc lang="fa">كهف 17-22
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225081500 +0330" channel="Radio Quran" stop="20260225082000 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آنونس رادیو قرآن
-گوینده+شرح و توضیح</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225082000 +0330" channel="Radio Quran" stop="20260225090000 +0330">
-    <title lang="fa">تلاوت استاد عبدالفتاح شعشاعی</title>
-    <desc lang="fa">نور 35-56
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225090000 +0330" channel="Radio Quran" stop="20260225090500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">راس ساعت
-اعلام ساعت، فراز تلاوت، آنونس، گوینده</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225090500 +0330" channel="Radio Quran" stop="20260225092000 +0330">
-    <title lang="fa">تلاوت استاد قاسم رضیعی</title>
-    <desc lang="fa">انسان
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225092000 +0330" channel="Radio Quran" stop="20260225092500 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">دعای باران
-پخش+شرح و توضیح تلاوت</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225092500 +0330" channel="Radio Quran" stop="20260225094000 +0330">
-    <title lang="fa">تلاوت استاد عبدالعاطی ناصف</title>
-    <desc lang="fa">یونس 53-64
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225094000 +0330" channel="Radio Quran" stop="20260225094500 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آنونس رادیو قرآن
-آنونس رادیو قرآن</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225094500 +0330" channel="Radio Quran" stop="20260225100000 +0330">
-    <title lang="fa">تلاوت استاد محمدحسین سعیدیان</title>
-    <desc lang="fa">قمر 49 و رحمن 1-29
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225100000 +0330" channel="Radio Quran" stop="20260225100500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">راس ساعت
-اعلام ساعت، فراز تلاوت، آنونس، گوینده</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225100500 +0330" channel="Radio Quran" stop="20260225103000 +0330">
-    <title lang="fa">تلاوت استاد محمد احمد شبیب</title>
-    <desc lang="fa">توبه 33-46
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225103000 +0330" channel="Radio Quran" stop="20260225103500 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">پخش
-گوینده</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225103500 +0330" channel="Radio Quran" stop="20260225110000 +0330">
-    <title lang="fa">تلاوت آقای محمد جواد كاشفی</title>
-    <desc lang="fa">اعراف 196 و انفال 1-4
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225110000 +0330" channel="Radio Quran" stop="20260225110500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">راس ساعت
-اعلام ساعت، فراز تلاوت، آنونس، گوینده</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225110500 +0330" channel="Radio Quran" stop="20260225111500 +0330">
-    <title lang="fa">تلاوت آقای رحیم خاكی</title>
-    <desc lang="fa">بروج و قدر
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225111500 +0330" channel="Radio Quran" stop="20260225112000 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">گوینده پخش
-میان برنامه</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225112000 +0330" channel="Radio Quran" stop="20260225115000 +0330">
-    <title lang="fa">تلاوت استاد عبدالباسط محمد عبدالصمد</title>
-    <desc lang="fa">انعام 13-45
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225115000 +0330" channel="Radio Quran" stop="20260225123000 +0330">
-    <title lang="fa">اذانگاهی</title>
-    <desc lang="fa">اذان ظهر به افق تهران، 
-ساعت: 12:17</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055003"/>
-  </programme>
-  <programme start="20260225123000 +0330" channel="Radio Quran" stop="20260225130000 +0330">
-    <title lang="fa">تلاوت استاد عبدالناصر حرك</title>
-    <desc lang="fa">سوره شعرا 1-15
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225130000 +0330" channel="Radio Quran" stop="20260225130500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">راس ساعت
-اعلام ساعت، فراز تلاوت، آنونس، گوینده</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225130500 +0330" channel="Radio Quran" stop="20260225133000 +0330">
-    <title lang="fa">تلاوت آقای هاشم روغنی</title>
-    <desc lang="fa">انبیاء 101 و ضحی و انشراح 1-4
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225133000 +0330" channel="Radio Quran" stop="20260225133500 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آنونس رادیو قرآن
-آنونس رادیو قرآن</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225133500 +0330" channel="Radio Quran" stop="20260225140000 +0330">
-    <title lang="fa">تلاوت استاد محمود شحات انور</title>
-    <desc lang="fa">آل عمران 189-195 و شمس و فاتحه
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225140000 +0330" channel="Radio Quran" stop="20260225140500 +0330">
-    <title lang="fa">اعلام راس ساعت</title>
-    <desc lang="fa">فراز تلاوت
-خبر راس ساعت</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225140500 +0330" channel="Radio Quran" stop="20260225141500 +0330">
-    <title lang="fa">تلاوت آقای محمدجواد حسینی</title>
-    <desc lang="fa">آل عمران 189-194
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225141500 +0330" channel="Radio Quran" stop="20260225142000 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آنونس رادیو قرآن
-گوینده+شرح و توضیح</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225142000 +0330" channel="Radio Quran" stop="20260225144000 +0330">
-    <title lang="fa">تلاوت استاد سید متولی عبدالعال</title>
-    <desc lang="fa">رحمن 46
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225144000 +0330" channel="Radio Quran" stop="20260225144500 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آنونس رادیو قرآن
-آنونس رادیو قرآن</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225144500 +0330" channel="Radio Quran" stop="20260225150000 +0330">
-    <title lang="fa">تلاوت آقای صالح اطهری فرد</title>
-    <desc lang="fa">عنكبوت 52
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225150000 +0330" channel="Radio Quran" stop="20260225150500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">آنونس 
-اعلام ساعت، فراز تلاوت، آنونس، گوینده</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225150500 +0330" channel="Radio Quran" stop="20260225154500 +0330">
-    <title lang="fa">تلاوت استاد عبدالباسط محمد عبدالصمد</title>
-    <desc lang="fa">آل عمران 33-64
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225154500 +0330" channel="Radio Quran" stop="20260225155000 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آنونس اردیو قرآن
-آنونس رادیو قرآن</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225155000 +0330" channel="Radio Quran" stop="20260225160000 +0330">
-    <title lang="fa">تلاوت آقای حسین باقری</title>
-    <desc lang="fa">حج 25-28
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225160000 +0330" channel="Radio Quran" stop="20260225160500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">آنونس رادیو قرآن
-اعلام ساعت، فراز تلاوت، آنونس، گوینده</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225160500 +0330" channel="Radio Quran" stop="20260225163500 +0330">
-    <title lang="fa">تلاوت استاد سید سعید</title>
-    <desc lang="fa">حاقه
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225163500 +0330" channel="Radio Quran" stop="20260225164000 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آنونس رادیو قرآن
-پخش، شرح و توضیح تلاوت</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225164000 +0330" channel="Radio Quran" stop="20260225170000 +0330">
-    <title lang="fa">تلاوت استاد احمد ابوالمعاطی</title>
-    <desc lang="fa">یس 69 و ضحی و انشراح 
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225170000 +0330" channel="Radio Quran" stop="20260225170500 +0330">
-    <title lang="fa">راس ساعت</title>
-    <desc lang="fa">گوینده پخش
-فراز تلاوت</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225170500 +0330" channel="Radio Quran" stop="20260225172000 +0330">
-    <title lang="fa">تلاوت آقای حامد شاكرنژاد</title>
-    <desc lang="fa">حجرات 15 و ق 1-7
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225172000 +0330" channel="Radio Quran" stop="20260225172500 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">میان برنامه
-پخش گوینده</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225172500 +0330" channel="Radio Quran" stop="20260225183000 +0330">
-    <title lang="fa">اذانگاهی</title>
-    <desc lang="fa">اذان مغرب به افق تهران، 
-ساعت: 18:14</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055003"/>
-  </programme>
-  <programme start="20260225183000 +0330" channel="Radio Quran" stop="20260225190000 +0330">
-    <title lang="fa">تلاوت استاد محمد احمد شبیب</title>
-    <desc lang="fa">قصص 1-14
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225190000 +0330" channel="Radio Quran" stop="20260225190500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">اعلام راس ساعت
-فراز تلاوت+گوینده</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225190500 +0330" channel="Radio Quran" stop="20260225192500 +0330">
-    <title lang="fa">تلاوت آقای محمد حسن موحدی</title>
-    <desc lang="fa">بقره 62-82
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225192500 +0330" channel="Radio Quran" stop="20260225193000 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آنونس رادیو قرآن
-آنونس رادیو قرآن</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225193000 +0330" channel="Radio Quran" stop="20260225200000 +0330">
-    <title lang="fa">تلاوت استاد مصطفی اسماعیل</title>
-    <desc lang="fa">فرقان 58 و حاقه 1-7
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225200000 +0330" channel="Radio Quran" stop="20260225200500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">آنونس رادیو قرآن
-فراز تلاوت</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225200500 +0330" channel="Radio Quran" stop="20260225203000 +0330">
-    <title lang="fa">تلاوت استاد محمد بسیونی</title>
-    <desc lang="fa">مزمل 1-19 و فاتحه و بقره
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225203000 +0330" channel="Radio Quran" stop="20260225203500 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آنونس رادیو قرآن
-گوینده+شرح و توضیح</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225203500 +0330" channel="Radio Quran" stop="20260225210000 +0330">
-    <title lang="fa">تلاوت استاد انور شحات انور</title>
-    <desc lang="fa">انسان 1-13 و كوثر
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225210000 +0330" channel="Radio Quran" stop="20260225210500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">راس ساعت
-اعلام ساعت، فراز تلاوت، آنونس، گوینده</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225210500 +0330" channel="Radio Quran" stop="20260225211000 +0330">
-    <title lang="fa">گروه آل یاسین</title>
-    <desc lang="fa">انسان 5-18
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225211000 +0330" channel="Radio Quran" stop="20260225211500 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آنونس رادیو قرآن
-آنونس رادیو قرآن</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225211500 +0330" channel="Radio Quran" stop="20260225214000 +0330">
-    <title lang="fa">تلاوت استاد محمود علی البناء</title>
-    <desc lang="fa">طور 48 و نجم و قمر 1-2
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225214000 +0330" channel="Radio Quran" stop="20260225214500 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آنونس رادیو قرآن
-شرح و توضیح تلاوت</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225214500 +0330" channel="Radio Quran" stop="20260225220000 +0330">
-    <title lang="fa">تلاوت آقای محسن خدام حسینی</title>
-    <desc lang="fa">جمعه
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225220000 +0330" channel="Radio Quran" stop="20260225220500 +0330">
-    <title lang="fa">تیك تاك</title>
-    <desc lang="fa">راس ساعت
-اعلام ساعت، فراز تلاوت، آنونس (حجاب و عفاف)، گوینده</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=053103"/>
-  </programme>
-  <programme start="20260225220500 +0330" channel="Radio Quran" stop="20260225223000 +0330">
-    <title lang="fa">تلاوت استاد كامل یوسف بهتیمی</title>
-    <desc lang="fa">شعرا 181 و نمل 1-6
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225223000 +0330" channel="Radio Quran" stop="20260225223500 +0330">
-    <title lang="fa">میان برنامه</title>
-    <desc lang="fa">آنونس رادیو قرآن
-گوینده+شرح و توضیح</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055001"/>
-  </programme>
-  <programme start="20260225223500 +0330" channel="Radio Quran" stop="20260225230000 +0330">
-    <title lang="fa">تلاوت استاد عباس امام جمعه</title>
-    <desc lang="fa">فتح 18 و حجرات 1-10
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225230000 +0330" channel="Radio Quran" stop="20260225230500 +0330">
-    <title lang="fa">شرح و توضیح تلاوت</title>
-    <desc lang="fa">شرح تلاوت
-شرح و توضیح تلاوت</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055196"/>
-  </programme>
-  <programme start="20260225230500 +0330" channel="Radio Quran" stop="20260225235500 +0330">
-    <title lang="fa">تلاوت استاد سعید مسلم</title>
-    <desc lang="fa">انعام 57-86
-تلاوت قرآن كریم</desc>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=055156"/>
-  </programme>
-  <programme start="20260225235500 +0330" channel="Radio Quran" stop="20260225235900 +0330">
-    <title lang="fa">دعای ختم قرآن</title>
-    <icon src="https://radio.ir/picturebymmc/?chn=radio-quran&amp;s=d&amp;m=058128"/>
-  </programme>
 </tv>
