@@ -364,31 +364,34 @@
   <programme start="20260227164825 +0330" channel="QuranTV.ir@SD" stop="20260227164925 +0330">
     <title lang="fa">تیزربرنامه نفحات- سحررمضان 1404</title>
   </programme>
-  <programme start="20260227165003 +0330" channel="QuranTV.ir@SD" stop="20260227170103 +0330">
-    <title lang="fa">مناجات خوانی حاج سعید حدادیان</title>
-  </programme>
-  <programme start="20260227170103 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">تیزر مسجد به مسجد</title>
-  </programme>
-  <programme start="20260227170142 +0330" channel="QuranTV.ir@SD" stop="20260227170242 +0330">
-    <title lang="fa">فراز تلاوت</title>
-  </programme>
-  <programme start="20260227170312 +0330" channel="QuranTV.ir@SD">
-    <title lang="fa">تیزربرنامه کلیدهای بهشت-شرح دعای ابوحمزه ثمالی</title>
-  </programme>
-  <programme start="20260227170334 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260227165003 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">اعلام اذان تهران جمعه 8 اسفند</title>
   </programme>
-  <programme start="20260227170416 +0330" channel="QuranTV.ir@SD" stop="20260227171016 +0330">
+  <programme start="20260227165045 +0330" channel="QuranTV.ir@SD" stop="20260227165945 +0330">
+    <title lang="fa">مداحی و روضه خوانی حاج سعید حدادیان</title>
+  </programme>
+  <programme start="20260227170018 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">تیزر مسجد به مسجد</title>
+  </programme>
+  <programme start="20260227170057 +0330" channel="QuranTV.ir@SD" stop="20260227170157 +0330">
+    <title lang="fa">فراز تلاوت</title>
+  </programme>
+  <programme start="20260227170227 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">تیزربرنامه کلیدهای بهشت-شرح دعای ابوحمزه ثمالی</title>
+  </programme>
+  <programme start="20260227170249 +0330" channel="QuranTV.ir@SD">
+    <title lang="fa">اعلام اذان تهران جمعه 8 اسفند</title>
+  </programme>
+  <programme start="20260227170331 +0330" channel="QuranTV.ir@SD" stop="20260227170931 +0330">
     <title lang="fa">تربت ما</title>
   </programme>
-  <programme start="20260227171017 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260227170932 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">آرم یاد خدا . زنده</title>
   </programme>
-  <programme start="20260227171042 +0330" channel="QuranTV.ir@SD" stop="20260227181142 +0330">
+  <programme start="20260227170957 +0330" channel="QuranTV.ir@SD" stop="20260227181157 +0330">
     <title lang="fa">یاد خدا . زنده (ویژه برنامه افطار)</title>
   </programme>
-  <programme start="20260227181142 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260227181157 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">آرم استیشن</title>
   </programme>
   <programme start="20260227181207 +0330" channel="QuranTV.ir@SD" stop="20260227181507 +0330">
@@ -431,7 +434,7 @@
     <title lang="fa">تیزر پویش کتابخوانی باران خوبی ها</title>
   </programme>
   <programme start="20260227194544 +0330" channel="QuranTV.ir@SD" stop="20260227194744 +0330">
-    <title lang="fa">مدح وفات حضرت خدیجه</title>
+    <title lang="fa">مدح وفات حضرت خدیجه SGHL HGGI UGDIH</title>
   </programme>
   <programme start="20260227194833 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">آرم معرفی برنامه نمایشگاه قرآن کریم . زنده</title>
@@ -487,16 +490,16 @@
   <programme start="20260227225930 +0330" channel="QuranTV.ir@SD" stop="20260227234330 +0330">
     <title lang="fa">مناجات خوانی</title>
   </programme>
-  <programme start="20260227234330 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260227234355 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">آرم قبل از تلاوت</title>
   </programme>
-  <programme start="20260227234350 +0330" channel="QuranTV.ir@SD" stop="20260227235350 +0330">
+  <programme start="20260227234415 +0330" channel="QuranTV.ir@SD" stop="20260227235415 +0330">
     <title lang="fa">تلاوت آقای جواد فروغی</title>
   </programme>
-  <programme start="20260227235351 +0330" channel="QuranTV.ir@SD">
+  <programme start="20260227235416 +0330" channel="QuranTV.ir@SD">
     <title lang="fa">صلوات</title>
   </programme>
-  <programme start="20260227235403 +0330" channel="QuranTV.ir@SD" stop="20260227235903 +0330">
+  <programme start="20260227235428 +0330" channel="QuranTV.ir@SD" stop="20260227235928 +0330">
     <title lang="fa">مدح وفات حضرت خدیجه (سلام الله علیها)</title>
   </programme>
   <channel id="Radio Quran">
